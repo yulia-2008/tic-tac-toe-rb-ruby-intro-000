@@ -40,7 +40,7 @@ puts "Please enter 1-9:"
  input_to_index(user_input)
  index=input_to_index(user_input)
  if valid_move?(board, index)
-   move(board, index, )
+   move(board, index, curent_player(board))
    display_board(board)
  else turn(board)
  end
